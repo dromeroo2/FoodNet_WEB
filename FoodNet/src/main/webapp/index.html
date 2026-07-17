@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="HOMEPAGE" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE</title>
+
+    <!-- Cargo la hoja de estilos -->
+        <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Cargo la hoja de estilos del modo oscuro -->
+    <link rel="stylesheet" href="css/dark-styles.css">
+
+    <!-- Cargo el script para el modo oscuro -->
+    <script src="js/dark-mode.js" defer></script>
+    
+</head>
+
+    <body>
+        <header>
+            <h1>Bienvenido a FoodNet</h1>
+            <p>Tu red social de recetas de cocina</p>
+        </header>
+
+            <div class="container">
+                <h2>Descubre las mejores recetas</h2>
+                <ul>
+                    <li>Interfaz sencilla y elegante</li>
+                    <li>Diseño Responsive</li>
+                    <li>Publica y Comparte recetas con tus amigos</li>
+                </ul>
+            
+                <section style="margin-top:40px;">
+                    
+                    <h3>Si no tienes una cuenta, puedes crearla <a href="signup.html" style="color:#0078d7;">aquí</a> </h3>
+
+                    <!-- Formulario de inicio de sesión, el atributo action indica a que págiona redirigir cuando se rellene el formulario -->
+                    <form action="login" method="POST">
+                        <label for="username">Usuario:</label>
+                        <input type="text" id="username" name="username" required>
+                        
+                        <label for="password">Contraseña:</label>
+                        <input type="password" id="password" name="password" required><br>
+                        
+                        <!-- Con el type submit se debe rellenar todos los campos -->
+                        <button type="submit" id="index-submit" class="cta-btn">
+                            Iniciar Sesión
+                        </button>
+                    </form>
+                </section>
+
+            </div>
+
+        <footer>&copy; 2025 David Romero Oñoro. Arquitectura de Sistemas Web y C/S.</footer>
+
+    </body>
+</html>
