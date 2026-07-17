@@ -1,0 +1,14 @@
+Mon Jan 12 21:05:08 CET 2026 : Servidor de red Apache Derby: Se ha iniciado 10.16.1.1 - (1901046) y está listo para aceptar las conexiones en el puerto 1527
+----------------------------------------------------------------
+Mon Jan 12 21:05:30 CET 2026:
+ Iniciando instancia a816c00e-019b-b3cf-f112-00005ce190d2 de Derby, versión The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): 
+en el directorio de base de datos F:\OneDrive\DAVID\1.UNIVERSIDAD\1.UAH\4º\1º CUATRI\WEB\LAB\PEC2\BBDD\foodnet_db con el cargador de clases jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e
+Cargado desde file:/C:/derby/db-derby-10.16.1.1-bin/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=20.0.2+9-78
+user.dir=C:\derby\db-derby-10.16.1.1-bin
+os.name=Windows 11
+os.arch=amd64
+os.version=10.0
+derby.system.home=F:\OneDrive\DAVID\1.UNIVERSIDAD\1.UAH\4º\1º CUATRI\WEB\LAB\PEC2\BBDD
+Cargador de clases de base de datos iniciado - derby.database.classpath=''
