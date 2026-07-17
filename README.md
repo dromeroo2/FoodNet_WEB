@@ -1,11 +1,11 @@
-## 🍳 FoodNet: Red Social de Cocina
+## FoodNet: Red Social de Cocina
 
 <div align="center">
   <img src="images/landing.png" width="800">
 </div>
 
 
-## 📖 Descripción del Proyecto
+## Descripción del Proyecto
 Este repositorio contiene el código fuente completo de la aplicación **FoodNet**, una red social diseñada para amantes de la cocina, desarrollada a lo largo de las Prácticas 1 y 2 de la asignatura **Arquitectura y Diseño de Sistemas Web y C/S**. 
 
 El proyecto abarca desde el diseño inicial del *frontend* responsivo (HTML5, CSS3, JavaScript) hasta la implementación de una arquitectura de servidor robusta y escalable (Backend) aplicando el patrón **Modelo-Vista-Controlador (MVC)** con tecnologías Java Enterprise Edition (JEE). La plataforma permite a los usuarios registrarse, compartir recetas, interactuar socialmente (seguir a otros usuarios, dar likes, comentar), enviar mensajes privados y gestionar sus perfiles.
@@ -16,7 +16,7 @@ El proyecto abarca desde el diseño inicial del *frontend* responsivo (HTML5, CS
 
 
 
-## ⭐ Características Principales
+## Características Principales
 
 ### Frontend (Presentación y UX)
 * **Diseño Responsivo e Interfaz de Usuario:** Maquetación estructurada con HTML5 semántico y CSS3, asegurando adaptabilidad a diferentes resoluciones de pantalla.
@@ -34,7 +34,7 @@ El proyecto abarca desde el diseño inicial del *frontend* responsivo (HTML5, CS
 * **Manejo Dinámico de Archivos:** Subida y servido de imágenes de perfil y recetas utilizando la anotación `@MultipartConfig` y un Servlet especializado (`ImagenesServlet`) que actúa como puente para leer binarios directamente desde el sistema de archivos del servidor (p. ej. `C://foodnet_fotos`).
 * **Interacción Social Compleja:** Implementación de relaciones lógicas para funcionalidades como seguimiento de usuarios ("Followers"), sistema de "Me Gusta" y comentarios en tiempo real.
 
-## 🗂️ Estructura del Código y Patrón MVC
+## Estructura del Código y Patrón MVC
 
 ### 1. Modelo (Entity & DAO)
 Ubicado en el paquete `com.mycompany.foodnet.modelo`. Gestiona la persistencia, la integridad relacional y la comunicación con la BBDD **Apache Derby**.
@@ -52,7 +52,7 @@ Archivos estáticos (`.html`) iniciales y motores de plantillas (`.jsp`) en el d
 Ubicado en el paquete `com.mycompany.foodnet.controlador`.
 * Clases que actúan como directores de orquesta: extraen parámetros del usuario (`request.getParameter()`), invocan al Modelo (DAOs) aplicando seguridad/validaciones, y redirigen el flujo hacia la Vista adecuada.
 
-## 💾 Base de Datos y Despliegue
+## Base de Datos y Despliegue
 * **Base de Datos Apache Derby:** El proyecto incluye scripts SQL de inicialización (DML y DDL) para crear el esquema relacional `foodnet_db` y popularlo con datos ficticios (Mock Data).
     * Tablas principales: `USUARIOS`, `RECETAS`, `COMENTARIOS`, `MENSAJES`, `LIKES` y `SEGUIDORES` (Relación reflexiva para amistades).
 * **Despliegue:** La aplicación está configurada para compilarse y desplegarse sobre el servidor de aplicaciones **Apache Tomcat (v10+)**.
